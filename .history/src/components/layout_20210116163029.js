@@ -29,9 +29,6 @@ const Layout = ({ location, title, children }) => {
         <a href="https://github.com/changjunpyo">
           <FaGithub />
         </a>
-        <a className="footer-right" href="https://gogojun.com/rss.xml">
-          rss
-        </a>
         <br />
         <br />© {new Date().getFullYear()}, Built with
         {` `}

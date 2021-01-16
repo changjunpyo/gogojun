@@ -250,10 +250,6 @@ a:focus {
   margin-bottom: var(--spacing-20);
 }
 
-.footer-right {
-  float: right;
-}
-
 .global-header {
   margin-bottom: var(--spacing-12);
 }

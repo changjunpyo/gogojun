@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaGithub } from "@react-icons/all-files/fa/FaGithub"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -26,12 +25,9 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        <a href="https://github.com/changjunpyo">
-          <FaGithub />
-        </a>
-        <a className="footer-right" href="https://gogojun.com/rss.xml">
-          rss
-        </a>
+        <i class="text-xl bi-github before:align-middle" />
+        <a href="https://github.com/changjunpyo">github</a>
+        <a className="" f
         <br />
         <br />© {new Date().getFullYear()}, Built with
         {` `}

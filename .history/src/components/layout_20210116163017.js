@@ -26,12 +26,8 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        <a href="https://github.com/changjunpyo">
-          <FaGithub />
-        </a>
-        <a className="footer-right" href="https://gogojun.com/rss.xml">
-          rss
-        </a>
+        <FaGithub />
+        <a href="https://github.com/changjunpyo">github</a>
         <br />
         <br />© {new Date().getFullYear()}, Built with
         {` `}
